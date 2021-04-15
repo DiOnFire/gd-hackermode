@@ -1,5 +1,6 @@
 # gd-hackermode
 Free alternative of MegaHack v6-PRO by Adaf but without retard download process and ads :^)
+
 P.S. The current version is v31-14.
 
 # Installation
