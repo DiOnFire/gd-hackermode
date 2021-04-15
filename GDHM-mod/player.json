@@ -1,0 +1,328 @@
+{
+    "TMGDMOD": [
+        {
+            "name": "No Spikes",
+            "description": "Ignores spike objects.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "75",
+                    "off": "74",
+                    "address": "0x205347",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "No Hitbox",
+            "description": "Disables all object hitboxes. Special objects are disabled.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "B8 07 00 00 00 90",
+                    "off": "8B 83 00 03 00 00",
+                    "address": "0x20456D",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "No Solids",
+            "description": "Disables most solid hitboxes. Special objects still work.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "B8 14 00 00 00 90",
+                    "off": "8B 83 00 03 00 00",
+                    "address": "0x20456D",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Force Block Type",
+            "description": "Treats all objects as if they were blocks.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "31 C0 83 7B 34 00 BA 07 00 00 00 0F 44 C2 90",
+                    "off": "8B 83 00 03 00 00 83 F8 07 0F 84 7F 0A 00 00",
+                    "address": "0x20456D",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Everything Hurts",
+            "description": "Owie.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "B8 02 00 00 00 90",
+                    "off": "8B 83 00 03 00 00",
+                    "address": "0x20456D",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Instant Mirror Portal",
+            "description": "Reverse portal now instantly switches.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "C7 04 24 00 00 00 00",
+                    "off": "C7 04 24 00 00 00 3F",
+                    "address": "0x20ACA3",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Freeze Player",
+            "description": "Freezes player movement.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90 90",
+                    "off": "50 FF D6",
+                    "address": "0x203519",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Jump Hack",
+            "description": "Allows for jumping in mid-air.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "01",
+                    "off": "00",
+                    "address": "0x1E9141",
+                    "lib": ""
+                },
+                {
+                    "on": "01",
+                    "off": "00",
+                    "address": "0x1E9498",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Trail Always Off",
+            "description": "Sets the trail to either always on or always off.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "E9 69 02 00 00 90",
+                    "off": "0F 84 68 02 00 00",
+                    "address": "0xAEDCC",
+                    "lib": "libcocos2d.dll"
+                }
+            ]
+        },
+        {
+            "name": "Trail Always On",
+            "description": "Sets the trail to either always on or always off.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90 90 90 90 90",
+                    "off": "0F 84 68 02 00 00",
+                    "address": "0xAEDCC",
+                    "lib": "libcocos2d.dll"
+                }
+            ]
+        },
+        {
+            "name": "Inversed Trail",
+            "description": "Inverses the trail state.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "0F 85 68 02 00 00",
+                    "off": "0F 84 68 02 00 00",
+                    "address": "0xAEDCC",
+                    "lib": "libcocos2d.dll"
+                }
+            ]
+        },
+        {
+            "name": "Hide Attempts",
+            "description": "Hides the attempt count in-game.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "00",
+                    "off": "41",
+                    "address": "0x2D83B8",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "No Pulse",
+            "description": "Disables pulsing on objects.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "EB 4A",
+                    "off": "74 4A",
+                    "address": "0x2060D9",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "No Flash",
+            "description": "Disables colour flashing on spider and dash orb.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "C3",
+                    "off": "55",
+                    "address": "0x1EEC50",
+                    "lib": ""
+                },
+                {
+                    "on": "90 90 90 90 90 90 90 90",
+                    "off": "50 8B CB E8 03 F5 00 00",
+                    "address": "0x1E8365",
+                    "lib": ""
+                },
+                {
+                    "on": "E9 91 00 00 00 90 90 90",
+                    "off": "56 8B CF E8 4A 95 00 00",
+                    "address": "0x1EE31E",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Coins on Practice",
+            "description": "Enable coin pick up in practice mode.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90 90 90 90 90 90 90 90 90 90 90 90",
+                    "off": "80 BE 95 04 00 00 00 0F 85 DE 00 00 00",
+                    "address": "0x204F10",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Always Show Coins",
+            "description": "Always make coins visible, even collected one.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "8B C2 90",
+                    "off": "0F 44 C2",
+                    "address": "0xE6706",
+                    "lib": ""
+                },
+                {
+                    "on": "8B D9 90",
+                    "off": "0F 44 D9",
+                    "address": "0xE720F",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Ignore ESC",
+            "description": "Stops the ESC key from exiting a level.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90 90 90 90",
+                    "off": "E8 BF 73 02 00",
+                    "address": "0x1E644C",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Suicide",
+            "description": "Kills the player.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "E9 57 02 00 00 90",
+                    "off": "0F 86 56 02 00 00",
+                    "address": "0x203DA2",
+                    "lib": ""
+                },
+                {
+                    "on": "E9 27 02 00 00 90",
+                    "off": "0F 87 26 02 00 00",
+                    "address": "0x20401A",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "No Particles",
+            "description": "Disables resuming the particle system.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "00",
+                    "off": "01",
+                    "address": "0xB8ED6",
+                    "lib": "libcocos2d.dll"
+                }
+            ]
+        },
+        {
+            "name": "Practice No Reset",
+            "description": "Level doesn't reset after exiting practice mode.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90 90 90 90",
+                    "off": "E8 7C ED FF FF",
+                    "address": "0x20D17F",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Instant Complete",
+            "description": "Teleports the player to the end of a level, also known as the teleport hack.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "C7 81 7C 06 00 00 20 BC BE 4C 90 90 90 90 90",
+                    "off": "8B 35 E0 23 68 00 81 C1 7C 06 00 00 50 FF D6",
+                    "address": "0x20350D",
+                    "lib": ""
+                }
+            ]
+        }
+    ]
+}

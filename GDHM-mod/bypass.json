@@ -1,0 +1,238 @@
+{
+    "TMGDMOD": [
+        {
+            "name": "Text Length",
+            "description": "Allows for unlimited text length in text inputs.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "EB 04",
+                    "off": "7C 04",
+                    "address": "0x21ACB",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Character Filter",
+            "description": "Lets you input any character in all text inputs.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90",
+                    "off": "75 04",
+                    "address": "0x21A99",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Slider Limit",
+            "description": "Lets sliders be dragged beyond the visible limit.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "EB",
+                    "off": "76",
+                    "address": "0x2E5CA",
+                    "lib": ""
+                },
+                {
+                    "on": "EB",
+                    "off": "76",
+                    "address": "0x2E5F8",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Main Levels",
+            "description": "Unlocks locked demon levels.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "E9 8A 00 00 00 90",
+                    "off": "0F 8E 89 00 00 00",
+                    "address": "0x188CE1",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Guard Vault",
+            "description": "Unlocks the guard's vault.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90",
+                    "off": "7C 4A",
+                    "address": "0x1DE1DA",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Keymaster Vault",
+            "description": "Unlocks the keymaster's vault.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90",
+                    "off": "74 4A",
+                    "address": "0x4F268",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Keymaster Basement",
+            "description": "Unlocks the keymaster's basement.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90",
+                    "off": "74 4A",
+                    "address": "0x221759",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Basement Bypass",
+            "description": "Lets you unlock the locks in the basement.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "E9 59 01 00 00 90",
+                    "off": "0F 85 58 01 00 00",
+                    "address": "0x226E19",
+                    "lib": ""
+                },
+                {
+                    "on": "E9 59 01 00 00 90",
+                    "off": "0F 85 58 01 00 00",
+                    "address": "0x226FB8",
+                    "lib": ""
+                },
+                {
+                    "on": "E9 30 02 00 00 90",
+                    "off": "0F 85 2F 02 00 00",
+                    "address": "0x227157",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Challenge Bypass",
+            "description": "Unlocks 'The Challenge' level.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90 90 90 90 90",
+                    "off": "0F 84 87 00 00 00",
+                    "address": "0x2214E0",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Treasure Room",
+            "description": "Unlocks the treasure room.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90",
+                    "off": "74 4A",
+                    "address": "0x4F631",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Potbar Shop",
+            "description": "Unlocks Potbar's shop in the treasure room.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90 90 90 90 90",
+                    "off": "0F 8C B4 01 00 00 00",
+                    "address": "0x15706B",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Scratch Shop",
+            "description": "Unlocks Scratch's shop in the treasure room.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90 90 90 90 90",
+                    "off": "0F 8C AF 01 00 00 00",
+                    "address": "0x1562D3",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Free Shop Items",
+            "description": "Allows all shop items to be bought for 0 mana orbs.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "8B 93 10 01 00 00",
+                    "off": "8B 93 14 01 00 00",
+                    "address": "0xF33BB",
+                    "lib": ""
+                },
+                {
+                    "on": "2B B3 10 01 00 00",
+                    "off": "2B B3 14 01 00 00",
+                    "address": "0x14B339",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Gatekeeper Vault",
+            "description": "Unlocks the Gatekeeper's vault.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90",
+                    "off": "74 61",
+                    "address": "0x188836",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Backup Stars Limit",
+            "description": "Lets you backup data, even with less than 10 stars.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "EB 3E",
+                    "off": "7D 3E",
+                    "address": "0x3928E",
+                    "lib": ""
+                }
+            ]
+        }
+    ]
+}

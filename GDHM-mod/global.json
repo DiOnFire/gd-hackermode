@@ -1,0 +1,308 @@
+{
+    "TMGDMOD": [
+        {
+            "name": "Force Visibility",
+            "description": "Sets all nodes to be visible.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "B0 01 90",
+                    "off": "8A 45 08",
+                    "address": "0x60753",
+                    "lib": "libcocos2d.dll"
+                },
+                {
+                    "on": "90 90 90 90 90 90",
+                    "off": "0F 84 CB 00 00 00",
+                    "address": "0x60C5A",
+                    "lib": "libcocos2d.dll"
+                }
+            ]
+        },
+        {
+            "name": "No Rotation",
+            "description": "Locks all rotation at 0 degrees.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "90 90 90 90 90 90 90 90 90 90",
+                    "off": "F3 0F 11 49 24 F3 0F 11 49 20",
+                    "address": "0x60554",
+                    "lib": "libcocos2d.dll"
+                }
+            ]
+        },
+        {
+            "name": "Transparent Menu",
+            "description": "Removes the blue background in the menu.",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "6A 00 90 90 90",
+                    "off": "68 FF 00 00 00",
+                    "address": "0x17DEB0",
+                    "lib": ""
+                },
+                {
+                    "on": "6A 30 90 90 90",
+                    "off": "68 FF 00 00 00",
+                    "address": "0x17E3BB",
+                    "lib": ""
+                },
+                {
+                    "on": "6A 00 90 90 90",
+                    "off": "68 FF 00 00 00",
+                    "address": "0x17E8DD",
+                    "lib": ""
+                },
+                {
+                    "on": "6A 00 90 90 90",
+                    "off": "68 FF 00 00 00",
+                    "address": "0x17EBB9",
+                    "lib": ""
+                },
+                {
+                    "on": "6A 00 90 90 90",
+                    "off": "68 FF 00 00 00",
+                    "address": "0x17DF73",
+                    "lib": ""
+                },
+                {
+                    "on": "6A 00 90 90 90",
+                    "off": "68 FF 00 00 00",
+                    "address": "0x6F9BE",
+                    "lib": ""
+                },
+                {
+                    "on": "6A 30 90 90 90",
+                    "off": "68 FF 00 00 00",
+                    "address": "0x6FC49",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Transparent BG",
+            "description": "Removes the blue filter from menu's backgrounds. Made by WEGFan",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "FF",
+                    "off": "00",
+                    "address": "0x15A174",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "66",
+                    "address": "0x15A175",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "FF",
+                    "address": "0x15A16F",
+                    "lib": ""
+                },
+                {
+                    "on": "90 B1",
+                    "off": "80 C9",
+                    "address": "0x15A16D",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "00",
+                    "address": "0x15891D",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "66",
+                    "address": "0x15891E",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "FF",
+                    "address": "0x158917",
+                    "lib": ""
+                },
+                {
+                    "on": "90 B1",
+                    "off": "80 C9",
+                    "address": "0x158915",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "00",
+                    "address": "0x6F7FB",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "66",
+                    "address": "0x6F7FC",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "FF",
+                    "address": "0x6F7F6",
+                    "lib": ""
+                },
+                {
+                    "on": "90 B1",
+                    "off": "80 C9",
+                    "address": "0x6F7F4",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "00",
+                    "address": "0x1979AD",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "66",
+                    "address": "0x1979AE",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "FF",
+                    "address": "0x1979A7",
+                    "lib": ""
+                },
+                {
+                    "on": "90 B1",
+                    "off": "80 C9",
+                    "address": "0x1979A5",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "00",
+                    "address": "0x17DBC1",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "66",
+                    "address": "0x17DBC2",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "FF",
+                    "address": "0x17DBBB",
+                    "lib": ""
+                },
+                {
+                    "on": "90 B1",
+                    "off": "80 C9",
+                    "address": "0x17DBB9",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "00",
+                    "address": "0x176032",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "66",
+                    "address": "0x176033",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "FF",
+                    "address": "0x176036",
+                    "lib": ""
+                },
+                {
+                    "on": "90 B1",
+                    "off": "80 C9",
+                    "address": "0x176034",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "00",
+                    "address": "0x4DF7E",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "66",
+                    "address": "0x4DF7F",
+                    "lib": ""
+                },
+                {
+                    "on": "FF",
+                    "off": "FF",
+                    "address": "0x4DF78",
+                    "lib": ""
+                },
+                {
+                    "on": "90 B1",
+                    "off": "80 C9",
+                    "address": "0x4DF76",
+                    "lib": ""
+                }
+            ]
+        },
+        {
+            "name": "Transparent Lists",
+            "description": "Makes the menu lists transparent. Made by WEGFan",
+            "toggle": false,
+            "hotkey": 0,
+            "opcodes": [
+                {
+                    "on": "00 00 00 40",
+                    "off": "BF 72 3E FF",
+                    "address": "0x15C02C",
+                    "lib": ""
+                },
+                {
+                    "on": "60",
+                    "off": "FF",
+                    "address": "0x5C70A",
+                    "lib": ""
+                },
+                {
+                    "on": "20 20",
+                    "off": "A1 58",
+                    "address": "0x5C6D9",
+                    "lib": ""
+                },
+                {
+                    "on": "20",
+                    "off": "2C",
+                    "address": "0x5C6DC",
+                    "lib": ""
+                },
+                {
+                    "on": "40 40",
+                    "off": "C2 72",
+                    "address": "0x5C6CF",
+                    "lib": ""
+                },
+                {
+                    "on": "40",
+                    "off": "3E",
+                    "address": "0x5C6D2",
+                    "lib": ""
+                }
+            ]
+        }
+    ]
+}
